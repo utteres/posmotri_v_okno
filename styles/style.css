@@ -13,7 +13,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
@@ -34,11 +34,11 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FFF;
+  color: #fff;
   font-size: 18px;
   font-weight: 700;
-  border: 1px solid #FFF;
-  gap:10px;
+  border: 1px solid #fff;
+  gap: 10px;
   height: 34px;
 }
 
@@ -89,7 +89,7 @@ ol {
   justify-content: space-between;
 }
 .search-form:last-child {
-align-items: end;
+  align-items: end;
 }
 .search-form__fieldset {
   border: none;
@@ -142,7 +142,7 @@ align-items: end;
   outline-offset: -1px;
 }
 .search-form__label:has(:focus-visible) {
-  outline: 1px solid #FFF;
+  outline: 1px solid #fff;
   outline-offset: 1px;
 }
 
@@ -156,10 +156,9 @@ align-items: end;
   display: inline-block;
   width: 19px;
   height: 19px;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   margin-right: 5px;
   padding: 1px;
-  
 }
 
 .search-form__pseudo-checkbox::before {
@@ -167,17 +166,17 @@ align-items: end;
   display: none;
   width: 15px;
   height: 15px;
- 
-  background-color: #FFF;
+
+  background-color: #fff;
 }
 
 .search-form__checkbox:active + .search-form__pseudo-checkbox::before {
   display: block;
- }
+}
 
- .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   display: block;
- }
+}
 
 .search-form__submit-button {
   width: 194px;
@@ -207,7 +206,7 @@ align-items: end;
 }
 .content__list-item {
   margin-bottom: 30px;
-  padding: 2px
+  padding: 2px;
 }
 
 .content__list-item:last-child {
@@ -220,7 +219,6 @@ align-items: end;
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
- 
 }
 .content__video-card-description-container {
   flex: 1;
@@ -237,9 +235,8 @@ align-items: end;
   display: block;
   margin: 2px;
 }
-.content__card-link_current{
+.content__card-link_current {
   background: #545050;
-
 }
 .content__card-link:active {
   background: #545050;
@@ -254,7 +251,7 @@ align-items: end;
   text-decoration: underline;
 }
 
-.content__card-link:focus{
+.content__card-link:focus {
   outline: 0;
 }
 
@@ -274,7 +271,7 @@ align-items: end;
   font-weight: 400;
   line-height: 16.2px;
 }
-.more-button{
+.more-button {
   width: 100%;
 }
 
@@ -282,10 +279,10 @@ align-items: end;
   width: 0;
 }
 
-.button:active{
+.button:active {
   background: #545050;
 }
 
-.button:hover{
+.button:hover {
   text-decoration: underline;
 }
